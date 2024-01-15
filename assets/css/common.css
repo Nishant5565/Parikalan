@@ -172,6 +172,7 @@ body::-webkit-scrollbar-thumb{
     font-weight: bold;
     color: rgb(255, 255, 255);
     transition: 0.5s;
+    font-family: 'Courier New', Courier, monospace;
 
 }
 
@@ -189,6 +190,7 @@ body::-webkit-scrollbar-thumb{
     background: transparent;
     cursor: pointer;
     color: black;
+    font-family: 'Courier New', Courier, monospace;
     z-index: 100000;
 }
 
@@ -488,13 +490,13 @@ hr {
 .quick-links{
 
     color: white;
-    font-family: font-1;
+    font-family:'Courier New', Courier, monospace;
 
 
 }
 .contact{
     color: white;
-    font-family: font-1;
+    font-family:'Courier New', Courier, monospace;
 
 }
 .underline span {
