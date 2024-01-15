@@ -442,6 +442,15 @@
   </section>
 <!-- code for rendering of about-us section -->
   <script>
+    let renderBtn=document.getElementById("about-click-render");
+  let aboutSec = document.getElementById("about-loader");
+  let home= document.getElementById("desktop");
+  renderBtn.addEventListener('click',aboutLoader);
+  function aboutLoader(){
+    // console.log('clicked');
+    aboutSec.classList.remove("about-loader");
+    home.classList.add("about-loader"); 
+  }
 
   </script>
 
