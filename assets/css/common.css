@@ -304,7 +304,7 @@ body::-webkit-scrollbar-thumb{
     .nav-bar {
         width: 100%;
         height: 100vh;
-        background: rgba(0,0,0,0.8);
+        background: rgba(0,0,0,0.93);
 
         position: absolute;
         top: 0;
@@ -315,7 +315,7 @@ body::-webkit-scrollbar-thumb{
         align-items: center;
 
         transform: translateX(-300px);
-        transition: all 1s linear;
+        /* transition: all 0.3s ease-in-out; */
 
         letter-spacing: 2px;
 
@@ -488,13 +488,13 @@ hr {
 .quick-links{
 
     color: white;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: font-1;
 
 
 }
 .contact{
     color: white;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: font-1;
 
 }
 .underline span {
@@ -615,4 +615,9 @@ hr {
 
 .website-hero{
     filter: blur(10px);
+}
+
+
+p, h2 , h1 , h3, h4, h5, h6{
+    font-family: 'Crimson Text', serif;
 }
