@@ -10,7 +10,7 @@
 .events-head{
 height: 500px;
 color: #fff;
-text-shadow: 3px 3px 10px rgb(0, 102, 255);
+text-shadow: 3px 3px 10px rgb(49, 49, 49);
 margin: auto;
 padding: 20px;
 display: flex;
@@ -218,10 +218,6 @@ background-image: url(.);
 .contain {
   margin-top: 5vh;
   width: 100%;
-  display: flex;
-  justify-content: flex-start;
-  /* gap: 60px; */
-  align-items: center;
   flex-wrap: wrap;
 }
 .cont{
