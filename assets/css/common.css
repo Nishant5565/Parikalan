@@ -30,7 +30,7 @@ body::-webkit-scrollbar-track{
     border-radius:10px;
 }
 body::-webkit-scrollbar-thumb{
-    background: rgba(0, 102, 255, 0.323);
+    background: rgb(0, 102, 255);
     border-radius: 20px;
     
 }
@@ -172,7 +172,6 @@ body::-webkit-scrollbar-thumb{
     font-weight: bold;
     color: rgb(255, 255, 255);
     transition: 0.5s;
-    font-family: 'Courier New', Courier, monospace;
 
 }
 
@@ -190,7 +189,6 @@ body::-webkit-scrollbar-thumb{
     background: transparent;
     cursor: pointer;
     color: black;
-    font-family: 'Courier New', Courier, monospace;
     z-index: 100000;
 }
 
@@ -209,31 +207,6 @@ body::-webkit-scrollbar-thumb{
     cursor: pointer;
 }
 
-.message-icon {
-    position: fixed;
-    bottom: 30px;
-    right: 30px;
-    cursor: pointer;
-    animation : bounce 5s infinite;
-    animation-delay: 2s;
-
-}
-
-@keyframes bounce {
-
-    0%{
-        transform: translateY(0px);
-    }
-    80%{
-        transform: translateY(0px);
-    }
-    90%{
-        transform: translateY(-10px);
-    }
-    100%{
-        transform: translateY(0px);
-    }
-}
 
 /* Media querry for Navigation Bar */
 
@@ -306,7 +279,7 @@ body::-webkit-scrollbar-thumb{
     .nav-bar {
         width: 100%;
         height: 100vh;
-        background: rgba(0,0,0,0.93);
+        background: rgba(0,0,0,0.8);
 
         position: absolute;
         top: 0;
@@ -317,7 +290,7 @@ body::-webkit-scrollbar-thumb{
         align-items: center;
 
         transform: translateX(-300px);
-        /* transition: all 0.3s ease-in-out; */
+        transition: all 1s linear;
 
         letter-spacing: 2px;
 
@@ -462,7 +435,6 @@ footer .contact{
 }
 .footer-links p{
     font-family: font-1;
-    color: white;
 
 }
 hr {
@@ -490,13 +462,13 @@ hr {
 .quick-links{
 
     color: white;
-    font-family:'Courier New', Courier, monospace;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 
 
 }
 .contact{
     color: white;
-    font-family:'Courier New', Courier, monospace;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 
 }
 .underline span {
@@ -615,11 +587,43 @@ hr {
     letter-spacing: 1px;
 }
 
-.website-hero{
-    filter: blur(10px);
+.alert{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 
-
-p, h2 , h1 , h3, h4, h5, h6{
-    font-family: 'Crimson Text', serif;
+.alert > div{
+    width: 30%;
+    height: 100px;
+    background: rgb(255, 0, 55);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-align: center;
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+    transition: 0.5s;
 }
+
+.alert > div:hover{
+    transform: scale(1.1);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+
+/*   /////////////////////////////////////////////////////////////////////////////////////////
+
+
+                            ALL ISSUES
+
+
+
+//////////////////////////////////////////////////////////////////////////////////////////    */
